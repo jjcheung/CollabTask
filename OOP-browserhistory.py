@@ -13,16 +13,16 @@ string forward(int steps) Move steps forward in history. If you can only forward
 
 class BrowserHistory:
 
-    def __init__(self, homepage: str):
+    def __init__(self, homepage):
 
         
 
-    def visit(self, url: str):
+    def visit(self, url):
 
 
-    def back(self, steps: int):
+    def back(self, steps):
   
         
 
-    def forward(self, steps: int):
+    def forward(self, steps):
         
